@@ -1,17 +1,26 @@
 <html>
   <body>
-    <title> Panda </title>
+    <nav>
+    <li class = "Nav"><a href="homepage.html"> HOME </a></li>
+    <li class = "Nav"><a href="index.html"> PANDA </a></li>
+    <li class = "Nav"><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/HOME"> WESTVIEW </a></li>
+      </nav>
+  
+  <br>
+    
+  <title> Panda </title>
       <h2> Panda </h2>
   
+   
    <center>
       <img class = "panda" src = "https://files.worldwildlife.org/wwfcmsprod/images/Panda_in_Tree/hero_small/99i33zyc0l_Large_WW170579.jpg">
      <p> Animals I Like </p>
         <ul class = "list">
           <center>
-          <li> Dog </li>
-          <li> Sloth </li>
-          <li> Koala </li>
-          <li> Panda </li>
+          <li class = "listt"> Dog </li>
+          <li class = "listt"> Sloth </li>
+          <li class = "listt"> Koala </li>
+          <li class = "listt"> Panda </li>
       </ul>
  
           
@@ -39,16 +48,13 @@
           <br>
           <br>
           
+          
       <img class = "PersonalArtifact" src="https://docs.google.com/drawings/d/e/2PACX-1vSjOkN0QzG3I9VfHG_lUacvlF8btGZxzhUzS3PygwDvdJykEmm_LmcEMIel-jvjmuIGQKV4olFIi43Q/pub?w=960&amp;h=720">
       </body>
 </html>
     
-  
-    
-    
-    <style>
-      
-      @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(https://fonts.googleapis.com/css?family=Bungee);
 @import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
@@ -80,11 +86,38 @@ p{
   padding: 10px;
   max-width: 370px;
   border: double 20px;
-  font-family: Over The Rainbow;
+  font-family: 'Over The Rainbow';
   text-shadow: 3px 4px;
 }
-li{
-  
+a{
+  text-decoration: none;
+  color: #A53860;
+}
+.Nav{
+  display: block;
+  float: left;
+  padding: 15px;
+  color: #9C7CA5;
+}
+.Nav:hover{
+  background-color: #5887FF;
+  color: #ff5252;
+}
+nav{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  background-color: #4361EE;
+  padding: 10px 760px;
+  top: 0;
+  margin: 0;
+  left: 0;
+  font-family: 'Shadows Into Light';
+  font-size: 25px;
+  border: groove 5px;
+}
+.listt{ 
   text-align: center;
   background-color: #035E7B;
   max-width: 200px;
@@ -109,6 +142,9 @@ table {
   text-align: center; 
   font-family: 'Bungee';
 }
+td{
+  font-family: 'Shadows Into Light';
+}
 th{
   font-size: 30px;
 }
@@ -126,5 +162,4 @@ tr:nth-child(odd):hover {background-color: #CD9FCC;}
 th:nth-child(odd):hover {background-color: #00F5D4}
 th:nth-child(odd) {background-color: #F15BB5}
 
-      
     </style>
