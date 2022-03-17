@@ -1,45 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-@import url(https://fonts.googleapis.com/css?family=Bungee);
-@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Website</title>
+  <title>DIA DE LOS MUERTOS</title>
 </head>
 <body>
   
-   <nav>
+  <nav>
     <li class = "Nav"><a href="../index.html"> HOME </a></li>
     <li class = "Nav"><a href="../Panda.html"> PANDA </a></li>
     <li class = "Nav"><a href="../Convince.html"> CONVINCE </a></li>
-    <li class = "Nav"><a href="index.html"> FOOD </a></li>
+    <li class = "Nav"><a href="index.html"> EVENT </a></li>
     <li class = "Nav"><a href="ddlm.html"> DIA DE LOS MUERTOS </a></li>
     <li class = "Nav"><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/HOME"> WESTVIEW </a></li>
       </nav>
   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
   <center>
   <div class = "wrapper">
-  <div class="box a">A</div>
+  <div class="boxa"> <img class = "skulls" src = https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3456,w_5184,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/12226_j8naxg.jpg></div>
   <div class="box b">B</div>
   <div class="box c">C</div>
+    <img class = "logo" src = https://github.com/WVCS/index-Andrew-Skripek-1/blob/main/event/Untitled%20drawing.png?raw=true>
   <div class="box d">D</div>
   <div class="box e">E</div>
-  <div class="box f">F</div>
+  <div class="box f"> <img class = "people" src = https://cdn.uanews.arizona.edu/s3fs-public/Dia-De-Los-Muertos-web.jpg> </div>
     
-    <img class = "skulls" src = https://res.cloudinary.com/sagacity/image/upload/c_crop,h_3456,w_5184,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/12226_j8naxg.jpg>
   </div>
   
   
   
 </body>
 </html>
-  
   <style>
-    @media only screen and (min-width: 1025px){
+    @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
+
+
+@media only screen and (min-width: 1025px){
 body{
   background-color: #8D2195;
 }
@@ -51,7 +56,7 @@ body{
   align-items: center;
   justify-content: space-evenly;
 }
-.a{
+.boxa{
   background-color: wheat;
   height: 20vh;
   width: 10vw;
@@ -88,8 +93,14 @@ body{
   border: groove 10px;
 }
 .skulls{
-  max-height: 80%;
+  max-height: 100%;
 }
+  .people{
+    height: 100%;
+  }
+  .logo{
+    max-height: 100%;
+  }
   a{
   text-decoration: underline;
   color: #2D3047;
@@ -130,7 +141,7 @@ nav{
   body{
     background-color: grey;
   }
-  .a{
+  .box a{
     border: groove 10px;
     background-color: cyan;
     width: 40%;
@@ -167,6 +178,9 @@ nav{
     height: 70px;
   }
   .skull{
+    max-height: 40%;
+  }
+  .people{
     max-height: 40%;
   }
   a{
